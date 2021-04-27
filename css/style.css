@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    background: linear-gradient(45deg, #FFC6FF, #A0C4FF, #BDB2FF, #FFC6FF);
+    color: gray;
+    font-family: 'Questrial', sans-serif;
+    animation: change-background 10s ease-in-out infinite;
+}
+@keyframes change-background {
+    0% {
+        background: linear-gradient(45deg, #FFC6FF, #A0C4FF, #BDB2FF, #FFC6FF);
+    }
+    50% {
+        background: linear-gradient(90deg,#FFC6FF, #BDB2FF, #A0C4FF);
+    }
+    100% {
+        background: linear-gradient(135deg, #BDB2FF, #FFC6FF, #A0C4FF,);
+    }
+}
+form {
+    margin: 20px 20px 20px 20px;
+    padding: 50px 10px 20px 10px;
+}
+h1 {
+    font-size: 25px;
+}
+.header {
+    text-align: center;
+    margin: 15px 15px;
+    padding-top: 15px;
+    color: #5c6b73;
+}
+label {
+    padding: 10px 10px 5px 18px;
+}
+input {
+    margin: 15px 15px;
+    padding: 10px;
+}
+.info {
+    width: 700px;
+}
+.form-background {
+    width: 800px;
+    height: 1400px;
+    background: rgba(250, 210, 225, 0.5);
+    margin: 0 auto;
+    color: #5c6b73;
+    border-radius: 1em;
+}
+input.info {
+    border-radius: 3px;
+    border: 2px solid #bdb2ff;
+    box-shadow: 8px 8px 5px 1px #bdb2ff;
+    margin: 5px 18px 18px 15px;
+}
+input.info:hover {
+    background-color: #d8f3dc;
+}
+
+select {
+    width: 700px;
+    height: 40px;
+    border-radius: 3px;
+    border: 2px solid #bdb2ff;
+    box-shadow: 8px 8px 5px 1px #bdb2ff;
+    color: gray;
+}
+textarea {
+    font-family: 'Questrial', sans-serif;
+    width: 700px;
+    height: 150px;
+    border-radius: 3px;
+    border: 2px solid #bdb2ff;
+    box-shadow: 8px 8px 5px 1px #bdb2ff;
+    color: gray;
+    line-height: 1.6em;
+    font-size: 15px;
+}
+.question-one, .question-two, .question-three {
+    margin: 20px 20px 20px 0px;
+}
+.main-info {
+    margin-bottom: 40px;
+}
+.sub-divs {
+    
+}
+.weapon, .pet {
+    border-radius: 3px;
+    box-shadow: px 8px 5px 1px #bdb2ff;
+    margin: 5px 18px 10px 15px;
+}
+.weapon label, .pet label{
+    padding: 3px;
+}
+.comments {
+    margin: 5px 18px 10px 15px;
+    border-radius: 3px;
+    box-shadow: px 8px 5px 1px #bdb2ff;
+}
+.comments label {
+    padding: 3px;
+}
+textarea {
+    margin: 3px 5px 3px 0px;
+    padding: 5px;
+}
+.btn {
+    background-color: #A0C4FF;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    margin: 50px 270px 50px 270px;
+    font-size: 20px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
